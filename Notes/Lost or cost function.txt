@@ -1,0 +1,10 @@
+- error = abs(y - y hat) here y is the actual value and y hat is the predicted value
+- Total error = sum of errors
+- Mean Absolute Error = (1/n) * Total error here n is the total number of predictions and the mean absolute error is called cost function
+- The individual error is called the loss
+- epoch = 5 means that we went through all the data 5 times total
+- Mean squared error = (1/n) * summation (y - y hat)^2
+- Mean squared error makes your gradient descent converge better
+- binary crossentropy is the synonym of log loss
+log loss/binary crossentropy = -(1 / n) * summation ((y * log(y hat)) + (1 - y) * log(1 - y hat))
+- we use log loss / binary crossentropy of logistic regression

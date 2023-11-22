@@ -1,0 +1,7 @@
+- Gradient Descent helps you in finding the constant parameters of the equation
+- w is called weight and b is called bias
+- wn = wn - (learning rate * (partial derivative of wn))
+- for our log loss function, the derivative of weight is (1/n) * (summation of (xi * (yi hat - yi)))
+- b = b - (learning rate * (derivative of b))
+- the derivative of bias is (1/n) * (summation of (yi hat - yi))
+- when we take derivative of our weights, we are decreasing the value of loss

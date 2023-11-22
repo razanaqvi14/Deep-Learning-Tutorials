@@ -1,0 +1,2 @@
+What is backward error propagation?
+when you predicted anything wrong and the output layer tells that to hidden layer and the hidden layer tells that to input layer and they will adjust their weights so next time they wont do wrong prediction, this is called backward error propagation. After thousands or tens of thousands of images, the prediction will be keep improving, to improve the weight, it uses derivative and mathematics

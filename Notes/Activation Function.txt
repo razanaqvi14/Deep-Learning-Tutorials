@@ -1,0 +1,16 @@
+- Derivative is slope of the curve here i.e how much an output is changing w.r.t the change in the input.
+
+- Derivative =  delta y / delta X
+
+- Sigmoid and tanh functions have vanishing gradient problem due to which the learning process gets slow and in vanishing gradient the derivative closes up to 0
+
+- To overcome this problem, relu function was introduced, in this if the value of the output is less than 0 it becomes 0, but if your value is above than 0, then your output is that exact value
+ReLU(z) = max(0, x)
+
+- For hidden layers, if you are not sure which activation function to use, simply use ReLU
+
+- In the case of binary classification, in the output, you should use sigmoid function
+
+- sigmoid will give the output between 0 and 1
+
+- tanh function will return the value between -1 and 1

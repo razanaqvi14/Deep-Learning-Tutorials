@@ -1,0 +1,17 @@
+1) Batch Gradient Descent: Use all training samples for one froward pass and then adjust weights
+
+- We go through all training samples and calculate cumulative error
+
+- We back propagate and adjust weights
+
+- Good for small training samples
+
+2) Stochastic Gradient Descent: Use one (randomly picked) sample for a forward pass and then adjust weights
+
+- If we have millions of rows in our data, and we start training for a certain number of epochs, it can be time-consuming to go through every row each time. To mitigate this, we employ a technique known as Stochastic Gradient Descent, where we randomly select a row and adjust our weights until we achieve the minimum loss.
+
+- Good for large training samples
+
+3) Batch Gradient Descent: Use a batch of (randomly picked) samples for a forward pass and then adjust weights
+
+- We take a batch of training samples from the training samples so we can train our model on it and adjust the weights

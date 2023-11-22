@@ -1,0 +1,38 @@
+Derivatives
+
+- Derivatives are used for non-linear equations
+
+- Example;
+
+Derivative of x^3 is 3x^2
+Derivative of 7x^3 is 21x^2
+Derivative of 2x^3 + x^5 is 6x^2 + 5x^4
+
+- Slope is used for linear equations whereas derivative is used for non-linear equations
+
+- Slope is constant whereas derivative is a function
+
+Partial Derivatives
+
+let suppose you have to find out the partial derivative of f(x, y) = x^3 + y^2
+
+the derivative of x^3 + y^2 w.r.t x will be;
+partial derivative(f) / partial derivative(x) = 3x^2 + 0, you don't count y
+
+the derivative of x^3 + y^2 w.r.t y will be;
+partial derivative(f) / partial derivative(y) = 0 + 2y, you don't count x
+
+How to actually find a derivative?
+
+To find the derivative of a function y = f(x) we use the slope formula:
+
+Slope = Change in Y / Change in X = Δy / Δx
+
+we can say that;
+
+x changes from x to	x + Δx
+y changes from f(x) to f(x+Δx)
+
+so the slope will be;
+
+slope = (f(x + Δx) - f(x)) / ((x + Δx) - x)

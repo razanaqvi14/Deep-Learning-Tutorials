@@ -1,0 +1,20 @@
+Q # 1: What is a Sigmoid or Logit function?
+
+Ans: A sigmoid function is a mathematical function having a characteristic "S"-shaped curve or sigmoid curve.
+Function Equation;
+sigmoid(z) = 1/(1 + e^-z)
+e = euler's number = 2.718
+if you will take a higher value of z i.e z = 200 so the function value will be close to 1 and similarly if you will take a lower value of z i.e z = -200 so the function value will be close to 0
+Sigmoid function converts input into range 0 to 1
+
+step 1: y = mx + b, here x is the age of the person
+step 2: z = 1/(1 + e^-y), here z is that whether the person will buy insurance or not with respective to the condition
+
+Its classification problem, so whats happening here that we will pass the age of a person as x in equation 1 and y will be calculated as we know that m and b are constant ands and from that y in equation 2, z will be calculated and we will get the predicted values and , so if the value is below than 0.5 it means its 0 and if the value is above than 0.5 it means that its 1. lets suppose that these 2 steps are closed in a pipe in which from one end we are passing age and from other end we are getting that whether this age person will take insurance or not? so this pipe is a neuron, neuron has a linear equation as a first part and an activation or sigmoid function as a second part.
+
+In machine learning terminology the age is a feature
+
+okay, so if you have more than 1 features then your equation will look like this;
+y = (w1 * x1) + (w2 * x2) + (w3 * x3) + (wn * xn) + b, here w is called weight
+
+so, after every calculation, if the value of z is greater than 0.5, it means tha neuron is activated or else it is deactivated
